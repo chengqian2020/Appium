@@ -17,10 +17,6 @@ desired_caps['noReset'] = True
 desired_caps['newCommandTimeout'] = 6000
 
 
-driver = webdriver.Remote('http://localhost:4723/wd/hub',desired_caps)
-
-# try:
-#     driver.implicitly_wait(10)
 
 
 
