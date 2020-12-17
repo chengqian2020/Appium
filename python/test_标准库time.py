@@ -28,9 +28,9 @@ import time
 # print(result_time)
 
 # 获取两天后的时间
-#获取当前时间
-# now_time = time.time()
-# after_time = now_time + 60*60*48
-# after_time_tuple = time.localtime(after_time)
-# result_time = time.strftime("%Y-%m-%d %H:%M:%S", after_time_tuple)
-# print(result_time)
+# 获取当前时间
+now_time = time.time()
+after_time = now_time + 60 * 60 * 48
+after_time_tuple = time.localtime(after_time)
+result_time = time.strftime("%Y-%m-%d %H:%M:%S", after_time_tuple)
+print(result_time)
