@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bc8e9c69-0d34-42b1-b125-797006e77e9c" name="默认更改列表" comment="删除test_001代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Web/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Web/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/.pytest_cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/datas/.pytest_cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas/.pytest_cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/datas/.pytest_cache/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +56,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="353">
-                <caret line="28" selection-start-line="28" selection-end-line="28" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datas/.pytest_cache/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/datas/.pytest_cache/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor>
+                <caret column="6" selection-start-column="6" selection-end-column="6" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -109,7 +126,6 @@
         <option value="$PROJECT_DIR$/test_多线程处理.py" />
         <option value="$PROJECT_DIR$/python/test_多线程处理.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Web/.gitignore" />
         <option value="$PROJECT_DIR$/python/test_标准库time.py" />
         <option value="$PROJECT_DIR$/selenium/selenium_001.py" />
         <option value="$PROJECT_DIR$/selenium/selenium001.py" />
@@ -119,7 +135,10 @@
         <option value="$PROJECT_DIR$/python/test_001.py" />
         <option value="$PROJECT_DIR$/datas/TestCase001.py" />
         <option value="$PROJECT_DIR$/datas/test_hogwards.py" />
+        <option value="$PROJECT_DIR$/Web/.gitignore" />
+        <option value="$PROJECT_DIR$/datas/.pytest_cache/.gitignore" />
         <option value="$PROJECT_DIR$/Web/README.md" />
+        <option value="$PROJECT_DIR$/datas/.pytest_cache/README.md" />
       </list>
     </option>
   </component>
@@ -142,6 +161,17 @@
             <path>
               <item name="Appium" type="b2602c69:ProjectViewProjectNode" />
               <item name="Appium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appium" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Appium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Appium" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Appium" type="b2602c69:ProjectViewProjectNode" />
@@ -254,7 +284,7 @@
       <workItem from="1608256829634" duration="2325000" />
       <workItem from="1608260260082" duration="42000" />
       <workItem from="1608260342694" duration="1175000" />
-      <workItem from="1608261555287" duration="3672000" />
+      <workItem from="1608261555287" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="first 提交">
       <created>1608090865878</created>
@@ -302,7 +332,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66980000" />
+    <option name="totallyTimeSpent" value="68464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,9 +344,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="875" extended-state="6" />
+    <frame x="1" y="25" width="1440" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18454936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34411386" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34411386" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.32729626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -436,13 +467,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a/test.txt" />
-    <entry file="file://$PROJECT_DIR$/Web/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/test_002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -515,7 +539,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datas/.pytest_cache/README.md">
+    <entry file="file://$PROJECT_DIR$/Web/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/.pytest_cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -523,11 +557,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/README.md">
+    <entry file="file://$PROJECT_DIR$/datas/.pytest_cache/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="353">
-            <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <first_editor>
+            <caret column="6" selection-start-column="6" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
