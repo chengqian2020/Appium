@@ -1,11 +1,14 @@
-hello python
-wahahahha
-xixixix
+直接等待    time.sleep()
+显示等待    until()
+隐式等待
+
+点击与输入
+输入：sendkeys()
+点击：click()
 
 
-abc
+Xpath定位：
+//*[@name='wd']     所有元素中name为"wd"的
+//*[@id='u']/a[2]   所有元素中id为"u"的，下面子元素为a的第二个元素
 
-cda
-123
-
-3421
+Css定位：
