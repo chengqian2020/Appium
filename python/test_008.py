@@ -10,7 +10,7 @@ import json
 第三步：关闭文件
 """
 
-# f = open('datas/txtfile','rt')
+# f = open('datas/case','rt')
 # # print(f.read())
 # print(f.readline())
 
@@ -18,7 +18,7 @@ import json
 # f.close()
 
 
-# with open('datas/txtfile','rt') as f:
+# with open('datas/case','rt') as f:
 #     print(f.readlines())
 
 info = '''

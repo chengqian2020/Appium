@@ -1,0 +1,122 @@
+pytest
+测试文件：
+测试文件以test_开头（以_test结尾也可以）
+测试类以Test开头，并且不能带有 __init__ 方法
+测试函数以test_开头
+断言使用基本的assert即可
+用例识别：
+Test*类包含的所有test_*的方法（测试类不能带有__init__方法）
+不在class中的所有的test_*方法
+终端执行：
+pytest -v 打印详细的用例信息
+pytest 文件名.py::类名           运行某个模块里面的类
+pytest 文件名.py::类名::方法名    运行某个模块里面的类里面的方法
+pytest 文件名.py -k "类名 and not 方法名"   跳过运行某个用例
+
+场景：
+测试失败后要重新运行N次，要在重新运行之间添加延迟时间，建个N秒再运行
+pip install pytest-rerunfailures
+
+执行：
+pytest --reruns 3 -v -s test_class.py
+pytest -v --reruns 3 --reruns-dalay 1 test_class.py
+场景：
+一个方法中写了多条断言，通常第一条过不去，下面就不执行了。我们想报错也执行以下
+安装：
+pip install pytest-assume
+执行：
+pytest.assume(1==4)
+pytsst.assume(2==4)
+
+import pytest类似的setup,teardown同样更灵活：
+模块级(setup_moudule/teardown_module)模块始末，全局的（优先最高）
+函数级(setup_function/teardown_function)只对函数用例生效（不在类中）
+类级(setup_class/teardown_class)只在类中前后运行一次（在类中）
+方法级(setup_method/teardown_methond)开始于方法始末（在类中）
+类里面的(setup/teardown)运行在调用方法的前后
+
+场景：
+用例1需要先登录
+用例2不需要登录
+用例3需要登录
+这种场景无法用setup与teardown实现
+用法在方法前面加@pytest.fixture()
+
+步骤：
+导入pytest
+在登录的函数上面加@pytest.fixture()
+在要使用的测试方法中传入(登录函数名称)，就先登录
+不传入的就不登录直接执行测试方法
+
+raise NamError
+
+@pytest.mark.skip   不执行该函数
+
+
+
+pytest-xdist 多线程执行
+pytest-html 生成测试报告
+pytest -v -s --html=report.html --self=contained-html
+
+
+
+直接等待    time.sleep()
+显示等待    until()
+隐式等待    implicitly_wait()
+
+点击与输入
+输入：sendkeys()
+点击：click()
+
+
+Xpath定位：
+//*[@name='wd']     所有元素中name为"wd"的
+//*[@id='u']/a[2]   所有元素中id为"u"的，下面子元素为a的第二个元素
+
+Css定位：
+拖拽处理：
+ActionsChains：执行PC端的鼠标点击，双击，右键，拖拽等事件
+touchActions：模拟PC和移动端的点击，滑动拖拽，多点触控等各种手势操作
+
+执行原理：ActionChains
+调用ActionChains的方法时，不会立即执行，而是间所有的操作，按顺序存放在一个队列里，当你调用perform（）方法时，队列中的时间会一次执行
+
+
+多窗口处理：
+1.先获取到当前的窗口句柄(driver.current_window_handle)
+2.再获取到所有的窗口句柄(driver.window_handles)
+3.判断是否是想要的窗口，如果是，就可以对窗口进行操作，如果不是，跳转到到另外一个窗口，对另外一个窗口进行操作(driver.switch_to_window)
+
+frame存在两种：
+一种是嵌套，一种是未嵌套的
+切换frame
+driver.switch_to.frame()    根据元素id或者index切换frame
+driver.switch_to.default_content()  切换到默认frame
+driver.swtich_to.parent_frame() 切换到父级frame
+处理未嵌套的iframe：
+driver.switch_to_frame("frame的id")
+driver.switch_to_frame("frame-index")frame无ID的时候依据索引来处理。索引从0开始driver.switch_to_frame(0)
+处理嵌套的iframe：
+对于嵌套的先进入到iframe的父节点，在进到子节点，然后可以对子节点里面的对象进行处理和操作
+driver.switch_to.frame("父节点")
+driver.switch_to.frame("子节点")
+
+
+文件上传处理：
+send_keys("上传图片路径")
+
+弹框处理机制：
+switch_to_alert.accept()    确认接收弹窗
+switch_to_alert.()
+
+
+PageObject:
+
+
+复用已有浏览器：
+
+
+
+
+
+
