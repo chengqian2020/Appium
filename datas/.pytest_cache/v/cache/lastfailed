@@ -1,1 +1,4 @@
-{}
+{
+  "test_fixtuer_yield.py::test_search1": true,
+  "test_fixture_autouse.py::test_search1": true
+}

@@ -1,3 +1,14 @@
 [
-  "test_hogwards.py::TestHogwards::test_hogwards"
+  "test_fixtuer_yield.py::test_search1",
+  "test_fixtuer_yield.py::test_search2",
+  "test_fixture.py::test_case1",
+  "test_fixture.py::test_case13",
+  "test_fixture.py::test_case2",
+  "test_fixture.py::test_case3",
+  "test_fixture_autouse.py::test_search1",
+  "test_fixture_autouse.py::test_search2",
+  "test_fixture_autouse.py::test_search3",
+  "test_hogwards.py::TestHogwards::test_hogwards",
+  "test_location.py::Test_wait::test_baidu",
+  "test_location.py::test_baidu"
 ]
